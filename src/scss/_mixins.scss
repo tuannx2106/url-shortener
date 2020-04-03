@@ -1,0 +1,18 @@
+@mixin font-headline() {
+  font-weight: 700;
+  font-family: $font-family-sans-serif;
+  margin: 0;
+}
+
+@mixin mediaquery--mobile() {
+  @media screen and (max-width: $mobile-screensize) {
+    @content;
+  }
+}
+
+@mixin centered() {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

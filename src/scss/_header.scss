@@ -1,0 +1,26 @@
+.header {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+
+  &__brand {
+    margin-right: 44px;
+    line-height: 1;
+  }
+
+  &__nav {
+    display: flex;
+  }
+
+  &__nav-item {
+    font-size: 14px;
+    color: $cl-gray;
+    margin-right: 28px;
+  }
+
+  &__action {
+    margin-left: auto;
+  }
+}

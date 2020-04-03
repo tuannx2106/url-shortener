@@ -1,0 +1,39 @@
+.button {
+  font-family: $font-family-sans-serif;
+  border-radius: 30px;
+  padding: 18px 40px;
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+  line-height: 1;
+
+  &:hover {
+    opacity: .9;
+  }
+
+  &:active {
+    opacity: .6;
+  }
+
+  &--primary {
+    background-color: $cl-cyan;
+    color: $cl-white;
+  }
+
+  &--secondary {
+    background-color: transparent;
+    color: $cl-gray;
+  }
+
+  &--sm {
+    padding: 8px 25px;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+
+  &--square {
+    border-radius: 9px;
+    padding-top: 22px;
+    padding-bottom: 22px;
+  }
+}
