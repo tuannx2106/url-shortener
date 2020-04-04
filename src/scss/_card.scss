@@ -1,0 +1,28 @@
+.card {
+  background-color: $cl-white;
+  padding: 80px 32px 40px;
+  border-radius: 6px;
+  box-shadow: 3px 6px 10px $cl-grayish-violet;
+  position: relative;
+
+  &__img {
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    background: $cl-dark-violet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: -45px;
+    border-radius: 50%;
+  }
+
+  &__header {
+    margin-bottom: 20px;
+  }
+
+  &__body {
+    color: $cl-grayish-violet;
+    font-size: 15px
+  }
+}
