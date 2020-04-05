@@ -1,0 +1,47 @@
+.form-control {
+  padding: 18px 32px;
+  color: $cl-dark-violet;
+  border: 2px solid $cl-white;
+  background-color: $cl-white;
+  border-radius: 9px;
+  font-size: 20px;
+
+  &::placeholder {
+    color: $cl-gray;
+  }
+
+  &:invalid {
+    border: 2px solid $cl-red;
+  }
+}
+
+.form-url-shorten {
+  padding: 50px;
+  background: $cl-dark-violet url(../assets/img/bg-shorten-desktop.svg) center/cover no-repeat;
+  border-radius: 9px;
+  display: flex;
+  align-items: center;
+  box-shadow: 3px 6px 10px $cl-grayish-violet;
+
+  @include mediaquery--mobile() {
+    flex-wrap: wrap;
+    padding: 25px;
+  }
+
+  &__input {
+    flex: 1;
+    margin-right: 32px;
+
+    @include mediaquery--mobile() {
+      width: 100%;
+      margin-right: 0;
+      margin-bottom: 16px;
+    }
+  }
+
+  &__action {
+    @include mediaquery--mobile() {
+      width: 100%;
+    }
+  }
+}

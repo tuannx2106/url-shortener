@@ -1,0 +1,18 @@
+@import '../../scss/variables';
+
+.section-adv-stat {
+  background-color: #f0f1f6;
+  padding-top: 210px;
+  padding-bottom: 120px;
+  text-align: center;
+
+  &__title {
+    margin-bottom: 32px;
+  }
+
+  &__content {
+    color: $cl-grayish-violet;
+    font-size: 20px;
+    margin-bottom: 100px;
+  }
+}
